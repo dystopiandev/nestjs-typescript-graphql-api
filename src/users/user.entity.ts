@@ -10,10 +10,10 @@ import { Transaction } from "../transactions/transaction.entity";
 
 @Entity()
 export class User extends BaseEntity<User> {
-  @Property()
+  @Property({ nullable: false })
   name!: string;
 
-  @Property()
+  @Property({ unique: true })
   email!: string;
 
   @Property()
