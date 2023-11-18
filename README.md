@@ -1,6 +1,6 @@
 # NestJS (TypeScript) GraphQL API Boilerplate
 
-[![CI](https://github.com/dystopiandev/nestjs-typescript-graphql-api-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/dystopiandev/nestjs-typescript-graphql-api-boilerplate/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/dystopiandev/nestjs-typescript-graphql-api-boilerplate/graph/badge.svg?token=6Q8HuczhFb)](https://codecov.io/gh/dystopiandev/nestjs-typescript-graphql-api-boilerplate)
+[![CI](https://github.com/dystopiandev/nestjs-typescript-graphql-api/actions/workflows/ci.yml/badge.svg)](https://github.com/dystopiandev/nestjs-typescript-graphql-api/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/dystopiandev/nestjs-typescript-graphql-api/graph/badge.svg?token=BueJy47J2M)](https://codecov.io/gh/dystopiandev/nestjs-typescript-graphql-api)
 
 A containerized boilerplate for a TypeScript-first NestJS backend with code-first GraphQL, JWT (Passport) authentication, MongoDB (MikroORM), and concise (Unit & E2E) tests.
 
