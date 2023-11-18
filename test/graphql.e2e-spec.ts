@@ -22,17 +22,16 @@ import { Transaction } from "../src/transactions/transaction.entity";
 import { TransactionsModule } from "../src/transactions/transactions.module";
 import { User } from "../src/users/user.entity";
 import { UserModule } from "../src/users/user.module";
-import { endpoint } from "./constants";
 
 vi.mock("../src/config", () => {
   return {
     config: {
-      host: "0.0.0.0",
-      port: "8008",
       jwtSecret: "test",
     },
   };
 });
+
+const endpoint = "/graphql";
 
 describe(endpoint, () => {
   let app: INestApplication;
